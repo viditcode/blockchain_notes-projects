@@ -1,0 +1,11 @@
+Data types: Data types are the keywords that tell the machine about the nature of data. If we take the example of C lang then there are int, string, float, and other data types. 
+Similarly, Solidity has data types like uint, string, int, bool, address, and other 
+int represents integers, uint represents a whole number, bool represents a boolean, and address represents the address of the blockchain.
+examples:
+    bool boolexample = true;
+    uint256 uintexampple = 22;
+    int256 intexample = -34;
+    string stringexample = "world";
+    bytes32 byteexample = "hey";
+here, one thing you see is that there is a behind uint, int, and bytes which represent the space of the variable in memory, and if we don't add then it will take the default value which is the highest (256 ) for int and uint and there is minimum 8 bit. you check on the official website if there are other changes as the technology is new and constantly upgrading.
+    
